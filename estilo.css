@@ -1,0 +1,48 @@
+.pesquisa{
+    width:100%;
+    text-align:center;
+    margin:25px 0;
+    position:center;
+}
+
+.pesquisa input{
+    width:800px;
+    max-width:95%;
+    padding:14px 20px 14px 45px;
+    border:2px solid #27ae60;
+    border-radius:30px;
+    font-size:17px;
+    outline:none;
+    text-align: center;
+}
+
+.icone{
+    position:absolute;
+    left:calc(50% - 290px);
+    top:14px;
+    font-size:20px;
+}
+
+.resultado{
+    width:620px;
+    max-width:95%;
+    margin:auto;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    text-align:left;
+    overflow:hidden;
+}
+
+.resultado a{
+    display:block;
+    padding:12px;
+    text-decoration:none;
+    color:#333;
+    border-bottom:1px solid #eee;
+}
+
+.resultado a:hover{
+    background:#27ae60;
+    color:white;
+}
